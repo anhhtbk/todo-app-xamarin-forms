@@ -4,4 +4,4 @@ This approach helps us shorten the XAML files and easier to move to MAUI later o
 
 - Styles: Defines all common, shared Styles
 - Colors: Defines all colors within the app
-- Dimens: Defines all spacing, with, height and corner radius
+- Dimens: Defines all spacing, width, height and corner radius
