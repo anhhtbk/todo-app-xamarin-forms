@@ -75,7 +75,7 @@ Data are serialized in JSON while passing between pages. The serialization and d
 
 **3) Navigation Events**
 
-Wit the help of our custom `AppNavigator` and several base VMs, we could distinguish two diferent navigation events
+With the help of our custom `AppNavigator` and several base VMs, we could distinguish two diferent navigation events
 
 - `OnInit`: When we open the page for the firs time
 - `OnBack`: When we go back from the subsequence page
@@ -88,7 +88,7 @@ The base VMs are
 
 ## Dependency Injection
 
-To make components easisy to wire up togehter, but loosely coupled, we use DryIoC for dependency injection.
+To make components easisy to wire up together, but loosely coupled, we use DryIoC for dependency injection.
 
 All dependencies are declared within `App.xaml.cs` in method `RegisterTypes`.
 
